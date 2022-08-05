@@ -1,9 +1,9 @@
 import React from 'react';
-import App from './App';
+import Dictionary from './Dictionary';
 import Renderer from 'react-test-renderer';
 
 test('Snapshot Test',() =>{
-    const tree = Renderer.create(<App/>).toJSON();
+    const tree = Renderer.create(<Dictionary/>).toJSON();
     expect(tree).toMatchSnapshot();
 
 });

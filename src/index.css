@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*Add Padding*/
+  padding: 10%;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*Style the Footer*/
+footer{
+  background-color: grey;
+}
+
+/*Style the classes that are displaying*/
+.example_word{
+  border-style: solid;
+  border-color:black;
+}
+.word_definition{
+  text-align: justify;
 }
